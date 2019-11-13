@@ -34,7 +34,7 @@ public class BackendTestRestController {
      * @return The response containing the data to retrieve.
      */
     @GetMapping(value = "/uri to setup here")
-    public ResponseEntity<TemplateDTO> getBooking(@RequestParam(name = "parameter", required = false) String parameter) {
+    public ResponseEntity<TemplateDTO> getData(@RequestParam(name = "parameter", required = false) String parameter) {
         LOGGER.trace("Get resource");
 
 

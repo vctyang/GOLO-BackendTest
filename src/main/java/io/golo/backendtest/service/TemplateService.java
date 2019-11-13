@@ -5,10 +5,10 @@ import org.slf4j.LoggerFactory;
 import org.springframework.stereotype.Service;
 
 /**
- * Service for booking operations
+ * Service for operations
  */
 @Service
 public class TemplateService {
-	private static final Logger LOGGER = LoggerFactory.getLogger(TemplateService.class);
+    private static final Logger LOGGER = LoggerFactory.getLogger(TemplateService.class);
 
 }
